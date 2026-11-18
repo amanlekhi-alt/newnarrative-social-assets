@@ -1,0 +1,5 @@
+tools/fonts/
+tools/build/
+tools/out/
+tools/sheets/
+__pycache__/
