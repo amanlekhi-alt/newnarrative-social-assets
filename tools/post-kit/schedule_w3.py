@@ -57,6 +57,7 @@ def entries():
                         reel_cover_url=RAW + folder + "/reel_cover.jpg",
                         reel_caption=f"{hook}\n\n{FOOT}{tags} {BASE_TAGS}",
                         music_track=TRACK,
+                        audio_name="New Narrative Studio · " + slug.replace("-", " ").title().replace("Chatgpt", "ChatGPT").replace("Brands", "Brand’s"),
                         post_time_ist="10:00"))
     return out
 
